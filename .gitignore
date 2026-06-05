@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+media/
+site_media/
+pinterest_creds/
+pinterest_pending/
+bot.log
+server.log
+screen.log
+tunnel.log
+last_offset.json
+bot.pid
+*.service

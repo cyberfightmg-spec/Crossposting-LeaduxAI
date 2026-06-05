@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "crossposting"
+version = "0.1.0"
+description = "CLI tool for crossposting content"
+authors = ["Developer"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastmcp = "2.*"
+uvicorn = "*"
+httpx = "*"
+python-dotenv = "*"
+
+[tool.poetry.scripts]
+crossposting = "crossposting.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
